@@ -13,6 +13,8 @@ import com.jorge.util.HibernateUtil;
 /**
  * This is a ONE TO ONE bidirectional relationship
  * 
+ * In this example, each customer can have only one passport and each passport can be held by only one customer making it a one to one relationship
+ * 
  */
 
 public class Main {
